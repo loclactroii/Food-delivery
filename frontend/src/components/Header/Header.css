@@ -49,3 +49,50 @@
     background-color: var(--light-text-color);
 }
 
+@media (max-width: 1600px) {
+  .header .container h1 {
+    font-size: 60px;
+  }
+
+  .header .container button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .header .container h1 {
+    font-size: 40px;
+  }
+
+  .header .container button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .header .container p {
+    max-width: 50%;
+    color: #fff;
+    margin: 10px 0 20px 0;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 950px) {
+  .header .container h1 {
+    font-size: 30px;
+  }
+
+  .header .container p {
+    max-width: 100%;
+    color: #fff;
+    margin: 10px 0 20px 0;
+    font-size: 15px;
+  }
+
+  .header .container button {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+}
+
