@@ -1,0 +1,39 @@
+.explore-menu {
+    margin-top: 50px;
+}
+
+.explore-menu h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.explore-menu p {
+    width: 50%;
+    font-size: 18px;
+    margin: 20px 0 50px 0;
+}
+
+.explore-menu-items {
+    overflow-x: scroll;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.explore-menu-items::-webkit-scrollbar {
+    display: none;
+}
+
+.explore-menu-item img {
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.explore-menu-item p {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}

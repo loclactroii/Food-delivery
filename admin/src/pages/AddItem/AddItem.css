@@ -1,0 +1,70 @@
+.addItem {
+    padding-top: 100px;
+    padding-left: 80px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.addItem-image {
+    display: flex;
+    flex-direction: column;
+}
+
+.addItem-image img {
+    width: 100px;
+}
+
+.addItem-image input {
+    display: none;
+}
+
+.addItem .input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.addItem input {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.addItem p {
+    color: var(--strong-text-color);
+}
+
+.addItem-desc textarea {
+    min-height: 150px;
+    padding: 10px;
+}
+
+.addItem .addItem-info {
+    display: flex;
+}
+
+.addItem .addItem-category select {
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+.addItem .addItem-price {
+    margin-left: 50px;
+}
+
+.addItem .addItem-price input {
+    padding: 10px;
+    max-width: 150px;
+}
+
+.addItem button {
+    max-width: 130px;
+    padding: 12px;
+    border: 0;
+    color: var(--white-color);
+    background-color: #000;
+    font-size: 16px;
+    cursor: pointer;
+}

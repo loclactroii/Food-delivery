@@ -1,0 +1,35 @@
+.orders {
+    padding-top: 100px;
+    padding-left: 80px;
+    width: 80%;
+}
+
+.orders .order-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.orders .order-item {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr 1fr;
+    padding: 14px 20px;
+    border: 1px solid #333;
+    gap: 40px;
+    align-items: start;
+}
+
+.orders .order-item .name {
+    margin-top: 20px;
+}
+
+.orders .bold {
+    font-weight: 600;
+}
+
+.order-item select {
+    max-width: 150px;
+    background-color: rgb(249, 218, 212);
+    border: 1px solid tomato;
+    padding: 10px;
+}

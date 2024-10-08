@@ -1,0 +1,49 @@
+.myorder {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.myorder h3 {
+    font-size: 30px;
+}
+
+.myorder .myorder-items {
+    margin-top: 30px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.myorder .myorder-item {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr 1.5fr 1fr;
+    align-items: center;
+    padding: 10px 20px;
+    border: 1px solid #666;
+    color: var(--strong-text-color);
+    gap: 40px;
+
+}
+
+.myorder .myorder-item span {
+    font-size: 14px;
+}
+
+.myorder .myorder-item .status {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    color: #000;
+}
+
+.myorder .myorder-item .status span {
+    color: tomato;
+}
+
+.myorder .myorder-item button {
+    max-width: 120px;
+    padding: 12px 20px;
+    border: 0;
+    background-color: rgb(249, 220, 215);
+}

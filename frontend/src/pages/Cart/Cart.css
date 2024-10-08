@@ -1,0 +1,121 @@
+.cart {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.cart .list-item {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+    color: var(--strong-text-color);
+    align-items: center;
+}
+
+.cart .list-item.title {
+    color: #000;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.cart hr {
+    border: 0;
+    height: 1px;
+    background-color: var(--light-text-color);
+}
+
+.cart .list-items .list-item {
+    margin: 10px 0;
+}
+
+.cart .list-items .list-item img {
+    width: 60px;
+}
+
+.cart .list-items .list-item .cross {
+    font-size: 24px;
+    font-weight: 400;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cart .cart-checkout {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-checkout .left-content {
+    flex: 1;
+    max-width: 500px;
+}
+
+.cart-checkout .left-content hr {
+    margin: 10px 0;
+}
+
+.cart-checkout .left-content h2 {
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+
+.cart-checkout .left-content div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-checkout .left-content div span {
+    font-size: 17px;
+}
+
+.cart-checkout .left-content .total span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.cart-checkout .left-content button {
+    margin-top: 20px;
+    padding: 14px;
+    border: 0;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    width: 220px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.cart .right-content {
+    flex: 1;
+    max-width: 500px;
+    margin-right: 100px;
+}
+
+.cart .right-content p {
+    color: var(--strong-text-color);
+    font-size: 18px;
+}
+
+.cart .right-content div {
+    margin-top: 10px;
+    display: flex;
+}
+
+.cart .right-content div input {
+    flex: 1;
+    background-color: transparent;
+    border: 0;
+    padding: 14px 20px;
+    font-size: 16px;
+    color: var(--very-light-text-color);
+    border-radius: 4px;
+    background-color: #e7e4e4;
+}
+
+.cart .right-content div button {
+    width: 110px;
+    border: 0;
+    background-color: black;
+    color: var(--white-color);
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}

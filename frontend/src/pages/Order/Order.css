@@ -1,0 +1,81 @@
+.order {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.order .cart-checkout {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order .left-content {
+    flex: 1;
+    max-width: 500px;
+    margin-right: 100px;
+}
+
+.order .left-content hr {
+    margin: 10px 0;
+}
+
+.order .left-content h2 {
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+
+.order .left-content div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order .left-content div span {
+    font-size: 17px;
+}
+
+.order .left-content .total span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.order .left-content button {
+    margin-top: 20px;
+    padding: 14px;
+    border: 0;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    width: 220px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.order .order-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1;
+    max-width: 600px;
+}
+
+.order .order-info h2 {
+    font-size: 44px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+.order .order-info .row-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.order-info input {
+    padding: 12px;
+    font-size: 16px;
+}
+
+.order-info .row-inputs input {
+    flex: 1;
+}
