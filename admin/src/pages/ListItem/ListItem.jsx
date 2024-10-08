@@ -4,7 +4,7 @@ import axios from 'axios'
 import { toast } from 'react-toastify'
 
 const ListItem = () => {
-    const api = 'http://localhost:4000/api/food/'
+    const api = 'https://food-delivery-9w50.onrender.com/api/food/'
     const [list, setList] = useState([])
 
     const getList = async () => {
