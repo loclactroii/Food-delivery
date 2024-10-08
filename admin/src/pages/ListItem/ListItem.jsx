@@ -43,7 +43,7 @@ const ListItem = () => {
                 {list.map((item, index) => {
                     return (
                         <div key={index} className='list-item list'>
-                            <img src={'http://localhost:4000/images/'+item.image} alt="" />
+                            <img src={'https://food-delivery-9w50.onrender.com/images/'+item.image} alt="" />
                             <p>{item.name}</p>
                             <p>{item.category}</p>
                             <p>{item.price}</p>
