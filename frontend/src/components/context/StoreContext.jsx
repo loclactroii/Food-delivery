@@ -4,7 +4,7 @@ import axios from 'axios'
 export const StoreContext = createContext()
 
 const ContextProvider = (props) => {
-  const api = 'http://localhost:4000'
+  const api = 'https://food-delivery-9w50.onrender.com'
   const [showLoginPopup, setShowLoginPopup] = useState(false)
   const [food_list, setFood_list] = useState([])
   const [token, setToken] = useState(false)
