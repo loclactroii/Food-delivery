@@ -22,7 +22,10 @@
     border: 1px solid #666;
     color: var(--strong-text-color);
     gap: 40px;
+}
 
+.myorder .myorder-item button {
+    cursor: pointer;
 }
 
 .myorder .myorder-item span {
