@@ -7,7 +7,7 @@ import { assets } from '../../assets/assets'
 import { toast } from 'react-toastify'
 
 const Orders = () => {
-  const api = 'http://localhost:4000'
+  const api = 'https://food-delivery-9w50.onrender.com'
   const [orders, setOrders] = useState([])
 
   const getAllOrders = async () => {
