@@ -5,6 +5,7 @@
     height: 34vw;
     border-radius: 20px;
     position: relative;
+    background-size: contain;
 }
 
 .header .container {
